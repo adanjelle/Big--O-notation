@@ -33,3 +33,11 @@ let twoSum= function (nums, target){
    map[nums[i]= i];
   }
 };
+//Accessing Nested Arrays
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6]
+];
+
+console.log(matrix[0][1]); // 2
+console.log(matrix[1][2]); // 6
