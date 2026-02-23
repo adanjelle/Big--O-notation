@@ -42,13 +42,37 @@ let matrix = [
 console.log(matrix[0][1]); // 2
 console.log(matrix[1][2]); // 6
 //
-let  containDuplicate  = function(nums){
-  let seen = new set();
+// let  containDuplicate  = function(nums){
+//   let seen = new set();
+//   for (let num of nums){
+//     if(seen.has(num)){
+//       return true;
+//     }
+//     seen.add(num);
+//   }
+//    return false;
+// }
+//
+
+//Problem: Contains Duplicate
+let containDuplicate = function(nums){
+  let seen= new Set();
   for (let num of nums){
-    if(seen.has(num)){
+    if (seen.has(num)){
       return true;
     }
     seen.add(num);
   }
-   return false;
+  return false
 }
+//Problem: Two Sum
+let twosSum = function(nums, target){
+  let map = new Map();
+  for(let i =0; i<nums.length; i++){
+    let needed = target-nums[i];
+    if(map.has(needed)){
+      return [map.get(needed), i];
+    }
+    map.set(nums[i], i);
+  }
+};
