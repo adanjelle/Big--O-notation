@@ -41,3 +41,14 @@ let matrix = [
 
 console.log(matrix[0][1]); // 2
 console.log(matrix[1][2]); // 6
+//
+let  containDuplicate  = function(nums){
+  let seen = new set();
+  for (let num of nums){
+    if(seen.has(num)){
+      return true;
+    }
+    seen.add(num);
+  }
+   return false;
+}

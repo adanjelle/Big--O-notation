@@ -13,3 +13,63 @@ let twoSum = function(nums, target){
   
   return []; // Return empty array if no solution
 };
+
+BEGINNER (Easy Big-O intuition)
+1️⃣ Two Sum
+
+Problem: Find two numbers that add up to a target.
+
+Brute force: O(n²)
+
+Optimized (HashMap): O(n)
+
+👉 Teaches: How a data structure changes Big-O
+
+2️⃣ Contains Duplicate
+
+Sorting approach: O(n log n)
+
+HashSet approach: O(n)
+
+👉 Teaches: Trade-off between time and space
+
+3️⃣ Valid Palindrome
+
+Time: O(n)
+
+Space: O(1)
+
+👉 Teaches: Two-pointer technique
+
+4️⃣ Reverse String
+
+Time: O(n)
+
+Space: O(1)
+
+👉 Teaches: In-place operations
+
+🟡 INTERMEDIATE (Where Big-O becomes real)
+5️⃣ Longest Palindromic Substring
+
+Time: O(n²)
+
+Space: O(1)
+
+👉 Teaches: Nested expansion & why n² happens
+
+6️⃣ Zigzag Conversion
+
+Time: O(n)
+
+Space: O(n)
+
+👉 Teaches: Direction control without nested loops
+
+7️⃣ Group Anagrams
+
+Time: O(n × k)
+
+Space: O(n)
+
+👉 Teaches: Frequency arrays & hashing strings
