@@ -76,3 +76,6 @@ let twosSum = function(nums, target){
     map.set(nums[i], i);
   }
 };
+//
+// Example: Checking if a key exists in a dictionary
+

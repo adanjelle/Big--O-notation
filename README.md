@@ -73,3 +73,14 @@ Time: O(n × k)
 Space: O(n)
 
 👉 Teaches: Frequency arrays & hashing strings
+
+//BIG-O notation//
+is used to describe the time complexity or space complexity of algorithm
+-is a way to express the upper bound of an algorithm's time or space complexity
+PROPERTISE OF BIG O NOTATION//
+1. REFLEXIVITY
+ for any function  f(n), f(n) = O(f(n))
+ example:  f(n) = N2, then f(n) = O(N2)
+ 2. Transitivity:
+BIG--  is way to measure the time  and space complexity  of an algorithm
+* it descibes the upper bound  of the complexity in the worst case scenario
