@@ -83,4 +83,8 @@ PROPERTISE OF BIG O NOTATION//
  example:  f(n) = N2, then f(n) = O(N2)
  2. Transitivity:
 BIG--  is way to measure the time  and space complexity  of an algorithm
-* it descibes the upper bound  of the complexity in the worst case scenario
+* it descibes the upper bound  of the complexity in the worst case scenarion
+olynomial Time Complexity: Big O(nk) Complexity
+Polynomial time complexity refers to the time complexity of an algorithm that can be expressed as a polynomial function of the input size n. In Big O notation, an algorithm is said to have polynomial time complexity if its time complexity is O(nk), where k is a constant and represents the degree of the polynomial.
+
+Algorithms with polynomial time complexity are generally considered efficient, as the running time grows at a reasonable rate as the input size increases. Common examples of algorithms with polynomial time complexity include linear time complexity O(n), quadratic time complexity O(n2), and cubic time complexity O(n3)
