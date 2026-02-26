@@ -79,3 +79,15 @@ let twosSum = function(nums, target){
 //
 // Example: Checking if a key exists in a dictionary
 
+
+
+    def measure_time(func: Callable, *args):
+
+    start = time.time()
+    result = func(*args)
+    end = time.time()
+    return result, end - start
+
+print("=" * 50)
+print("BIG O NOTATION LEARNING GUIDE")
+print("=" * 50)
